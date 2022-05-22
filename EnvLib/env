@@ -1,0 +1,161 @@
+source $TELENV
+
+# 显示网络
+funckey a	rats net
+funckey A	rats net
+
+# 修改属性
+funckey b	change
+funckey B	change
+
+# 复制
+funckey c 	copy
+funckey C 	copy
+
+# Done
+funckey d 	Done
+funckey D 	Done
+
+# 镜像
+funckey e	Mirror
+funckey E	Mirror
+
+# 蛇皮走线
+funckey f	Delay Tune
+funckey F	Delay Tune
+
+# 编辑
+funckey g	text edit
+funckey G	text edit
+
+# Snap pick to Pin
+funckey h	"prepopup;pop dyn_option_select 'Snap pick to@:@Pin'"
+funckey H	"prepopup;pop dyn_option_select 'Snap pick to@:@Pin'"
+
+# 保留，与 ix 冲突
+# funckey i	
+# 
+# funckey I	
+
+# Snap pick to Via
+funckey j	"prepopup;pop dyn_option_select 'Snap pick to@:@Via'"
+funckey J	"prepopup;pop dyn_option_select 'Snap pick to@:@Via'"
+
+# Snap pick to Segment Vertex
+funckey k	"prepopup;pop dyn_option_select 'Snap pick to@:@Segment Vertex'"
+funckey K	"prepopup;pop dyn_option_select 'Snap pick to@:@Segment Vertex'"
+
+# 测量
+funckey l	show measure
+funckey L	show measure
+
+# 移动
+funckey m	move
+funckey M	move
+
+# Next
+funckey n	next
+funckey N	next
+
+# Oops
+funckey o	oops
+funckey O	oops
+
+# 添加铜皮
+funckey p	shape add
+funckey P	shape add
+
+# 隐藏网络
+funckey q	unrats net
+funckey Q	unrats net
+
+# 旋转45°
+funckey r	angle 45
+
+# 旋转315°
+funckey R	angle 315
+
+# 调线
+funckey s	Slide
+funckey S	Slide
+
+# 添加文字
+funckey t	add text
+funckey T	add text
+
+# 设置
+funckey u	User Preferences Editor
+funckey U	User Preferences Editor
+
+# 切割铜皮
+funckey v	Shape Edit Boundary
+funckey V	Shape Edit Boundary
+
+# 走线
+funckey w	add connect
+funckey W	add connect
+
+# 保留，与 x 冲突
+#funckey x	
+alias X	pick
+
+# 颜色
+funckey y	color
+funckey Y	color
+
+# Toggle
+funckey z	Toggle
+funckey Z	Toggle
+
+###funckey ~n	new
+###funckey ~o	open
+###funckey ~s	save
+###funckey ~c	copy
+###funckey ~v	paste
+
+# 删除
+funckey Del 	delete
+
+# alias	cc	colorview create
+
+# 选择铜皮
+#alias   shape select
+
+# 铜皮透明
+alias F9 'settoggle no_shape_fill;redraw'
+
+
+### User Preferences section
+### This section is computer generated.
+### Please do not modify to the end of the file.
+### Place your hand edits above this section.
+###
+set autosave_time = 10
+set autosave_dbcheck
+set autosave
+set autosave_name = AutoSave
+unset no_shape_xhfill
+unset no_etch_shape_display
+unset no_shape_fill_dyn_ood
+set no_shape_fill
+unset old_shape_fill_style
+set clippath = $clippath
+set lstpath = E:/Project/Cadence/_Lib/ShapeLib/
+set parampath = E:/Project/Cadence/_Lib/Parameter
+set modulepath = E:/Project/Cadence/_Lib/ModLib/ ./
+set steppath = E:/Project/Cadence/_Lib/StepLib
+set psmpath = E:/Project/Cadence/_Lib/PcbLib E:/Project/Cadence/_Lib/ImpPcbLib/ E:/Project/Cadence/_Lib/ShapeLib/ E:/Project/Cadence/_Lib/SymLib/ E:/Project/Cadence/_Lib/ViaLib/
+set padpath = E:/Project/Cadence/_Lib/PadLib E:/Project/Cadence/_Lib/ImpPadLib/ E:/Project/Cadence/_Lib/ShapeLib/
+set devpath = devices E:/Project/Cadence/_Lib/PcbLib E:/Project/Cadence/_Lib/SymLib/ E:/Project/Cadence/_Lib/ViaLib/
+set allegro_dynam_timing = on
+set allegro_etch_length_on
+set allegro_dynam_timing_fixedpos
+set buttonfactor = 0.400000
+unset disable_opengl
+unset disable_opengl_cache
+set disable_gpu
+unset old_grid_display
+unset fontsize
+set no_dragpopup
+set showmeasure_altunits = millimeters
+set hide_unified_filter_dialog = 
